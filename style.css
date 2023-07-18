@@ -14,7 +14,7 @@
     --bg-button-color: #8257e5;
 }
 
-
+/*Lado esquerdo com o conteúdo*/
 
 .left-side {
     background: var(--bg-color);
@@ -35,6 +35,8 @@
     height: 94px;
     margin-bottom: 7rem;
 }
+
+/* Texto de apresentação */
 
 .text {
     display: flex;
@@ -67,6 +69,8 @@ label {
     color: var(--form-color);
 }
 
+/* Formulário de registro */
+
 .register {
     padding: 0 0 0 36px;
 
@@ -80,6 +84,11 @@ label {
     border: none;
 
     box-shadow: 5px 5px 10px;
+}
+
+.register button:hover {
+    background-color: #821ee5;
+    transition: .2s;
 }
 
 .register button img{
@@ -116,6 +125,8 @@ textarea:focus, input:focus {
 
     padding: 25px 0 0 0;
 }
+
+/* Rodapé */
 
 footer {
     margin-top: 10rem;
