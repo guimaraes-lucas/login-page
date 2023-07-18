@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 :root {
@@ -16,20 +16,96 @@
 
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 
 .left-side {
     background: var(--bg-color);
     height: 100vh;
-
+    
+    position: absolute;
+    
     display: flex;
     flex-direction: column;
-    color: white;
+
+    padding-left: 36px;
 }
 
 .left-side img {
     width: 389px;
     height: 94px;
+    margin-bottom: 7rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 7rem;
+}
+
+.text h1 {
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    color: var(--title-color);
+}
+
+.text h3 {
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.text p {
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+label {
+    font-family: 'inter', sans-serif;
+    color: var(--form-color);
+}
+
+.register button {
+    width: 30px;
+    height: 30px;
+    background-color: var(--bg-button-color);
+}
+
+.register button img{
+    margin: auto;
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    margin-top: 10rem;
+}
+
+.link{
+    display: inline-block;
+    align-items: center;
+
+}
+
+.link p {
+    display: flex;
+    align-items: center;
+
+    font-family: 'inter', sans-serif;
+}
+
+.link img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+}
+
+
+.right-side{
+    width: 1175px;
+    background: url(./assets/reading.png), cover no-repeat;
 }
