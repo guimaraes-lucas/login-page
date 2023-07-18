@@ -1,4 +1,4 @@
-<h1 text-align: center>Login Page</h1>
+<h1 align="center">Login Page</h1>
 <br>
 <br>
 
